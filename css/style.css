@@ -28,7 +28,7 @@ a {
 
 .social{
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
 }
 
 #copyright{
@@ -48,13 +48,49 @@ a {
 }
 
 
-.leftpane{
+.leftPane{
     width:30%;
+    padding:50px;
 }
-.rightpane{
-    width:70%;
+.rightPane{
+    width:50%;
 }
 
 h3{
     font-family: 'Abril Fatface', cursive;
 }
+
+
+
+#pic1i{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    border: 3px solid gold;
+}
+
+.header{
+    border: 5px solid #6eb7ac;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.thumbnail-image{
+    border: 3px solid #b76e79;
+    width: 300px;
+    
+}
+
+.content{
+    display:flex;
+    justify-content:center;
+}
+
+.martha {
+    padding:10px;
+}
+
